@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #11101d;
+
+}
+
+.container{
+
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 75px 0 65px 0;
+    border-radius: 24px;
+
+}
+
+.container .icon{
+
+    position: absolute;
+    top: -15%;
+    left: 38%;
+}
+
+.container .icon img{
+
+    border-radius: 5px;
+    width: 120px;
+    height: 120px;
+
+}
+
+.container .title{
+
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.error{
+    margin: 25px;
+    color: red;
+    text-align: center;
+}
+
+.container form .user-details{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0 12px 0;
+
+}
+
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 75%;
+}
+
+.user-details .input-box .details{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+
+    border-color: #1d1b31;
+
+}
+
+.user-details .input-box i{
+
+    position: absolute;
+    margin-top: 7px;
+    right: 14%;
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+form .button{
+
+    height: 45px;
+    margin: 45px 55px;
+
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: #1d1b31;
+    transition: all 0.3s ease;
+}
+
+form .button input:hover{
+    background: #71b7e6;
+}
+
+.container .footer-text p{
+
+    margin-left: -10px;
+    text-align: center;
+
+}
+
+.container .footer-text a{
+
+    text-decoration: none;
+    color: #000;
+
+}
+
+.container .footer-text a:hover{
+
+    color: #71b7e6;
+
+}
+
+
+
+
+
+
+
+
+
+

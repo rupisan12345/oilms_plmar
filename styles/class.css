@@ -1,0 +1,139 @@
+.main_content .header .text.class{
+
+    margin: 10px 25px;
+
+}
+
+.folders{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-top: 2rem;
+
+}
+
+/* .folders input[type = "submit"]{
+
+    border-width: 0px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 5px 0 5px 0;
+
+}
+
+.folders input[type = "submit"]:hover{
+
+    text-decoration: underline;
+    cursor: pointer;
+
+} */
+
+.folders button.btn{
+
+    border-width: 0px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 4rem;
+    margin: 4rem 0 2rem 3rem;     /* adjust if button doesnt match to the place of folder */
+    padding: 5px 0 5px 0;
+}
+
+.folders button.btn:hover{
+
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.folderclass{
+
+    display: flex;
+    align-items: center;
+    margin: -2rem 3rem 0 3rem;
+    min-height: 100%;
+    min-width: auto; 
+    
+}
+
+.folderclass_content a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.folderclass_content a:hover{
+
+    color: #fff;
+
+}
+
+.folderclass i{
+
+    position: relative;
+    font-size: 30rem;
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* .folderclass:hover i{
+
+  color: yellow;
+
+} */
+
+.folderclass_content{
+
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: -20px;
+    width: 25%;
+    color: #fff;
+    cursor: default;
+
+}
+
+.folderclass_content ul li{
+
+    list-style: none;
+    line-height: 20px;
+
+}
+
+
+.folderclass_content ul li span{
+
+    display: block;
+    font-size: 2rem;
+    margin: 1rem 0 0 3rem;
+
+}
+
+.folderclass_content ul li span.fdcspan{
+
+    font-size: 3rem;
+    margin: 0 0 0 3rem;
+    text-transform: capitalize;
+
+}
+
+.folderclass_content img{
+
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    right: 0;
+    top: 0;
+    transform: translate(25%, -30%);
+
+}
